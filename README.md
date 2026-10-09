@@ -168,13 +168,12 @@ public class Kata {
 
 ejercicio 10:
 <img width="1895" height="965" alt="image" src="https://github.com/user-attachments/assets/82a7d9d5-32c3-4ead-afe7-300a6c4369ee" />
+**
 import java.util.ArrayList;
 import java.util.List;
-
 public class MexicanWave {
     public static String[] wave(String str) {
         List<String> result = new ArrayList<>();
-
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == ' ') {
                 continue;
@@ -189,6 +188,6 @@ public class MexicanWave {
 
         return result.toArray(new String[0]);
     }
-}
+}**
 
 
